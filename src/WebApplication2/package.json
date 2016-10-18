@@ -4,7 +4,7 @@
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
-    "postinstall": "typings install",
+    "postinstall": "typings install && gulp restore",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings"
